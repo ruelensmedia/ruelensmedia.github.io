@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Ruelens Media - Sportfotografie</title>
+ <style>
+ body { font-family: sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+ header, section { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
+ nav ul { list-style: none; padding: 0; display: flex; gap: 20px; }
+ nav a { text-decoration: none; color: #333; font-weight: bold; }
+ .btn { display: inline-block; padding: 10px 20px; background: #333; color: #fff; text-decoration: none; border-radius: 5px; margin-right: 10px; margin-top: 15px; }
+ .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px; }
+ .card { border: 1px solid #ddd; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+ .form-group { margin-bottom: 15px; }
+ .form-group label { display: block; margin-bottom: 5px; font-weight: bold; }
+ .form-group input, .form-group textarea { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
+ .submit-btn { background: #333; color: #fff; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; font-size: 1rem; }
+ .profile-container { display: flex; flex-direction: column; align-items: center; text-align: center; max-width: 700px; margin: 0 auto; }
+ .profile-img { width: 220px; height: 220px; object-fit: cover; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-top: 25px; }
+ </style>
+</head>
+<body>
+ <!-- Navigatie & Hero -->
+ <header>
+ <nav>
+ <ul>
+ <li><a href="#werk">Werk</a></li>
+ <li><a href="#diensten">Diensten</a></li>
+ <li><a href="#over-mij">Over mij</a></li>
+ <li><a href="#boeken">Boeken</a></li>
+ </ul>
+ </nav>
+ <div style="margin-top: 60px;">
+ <h1>RUELENS MEDIA</h1>
+ <p style="font-size: 1.2rem; max-width: 600px;">Sportfotografie. Het moment net voor de juichkreet, het duel, de blik na het laatste fluitsignaal.</p>
+ <a href="#werk" class="btn">Bekijk mijn werk</a>
+ <a href="#boeken" class="btn" style="background: #e6b800; color: #000;">Boek een shoot</a>
+ </div>
+ </header>
+ 
+ <!-- WERK (Fotogalerij) -->
+ <section id="werk" style="background: #f9f9f9; border-top: 1px solid #eee; border-bottom: 1px solid #eee;">
+ <h2 style="font-size: 2rem; margin-bottom: 10px; text-align: center;">WERK</h2>
+ <p style="text-align: center; max-width: 600px; margin: 0 auto 40px auto; color: #666;">K. Lierse S.K. - Geselecteerde sfeer- en actiefoto's uit een recente wedstrijd-impressie.</p>
+ 
+ <div class="grid" style="margin-top: 0;">
+ <div><img src="images/samih1.jpg" alt="Thuisshirt van K. Lierse S.K. hangt klaar in de kleedkamer" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></div>
+ <div><img src="images/samih2.jpg" alt="Lierse speler kijkt gefocust voor de wedstrijd naast een jonge supporter" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></div>
+ <div><img src="images/samih3.jpg" alt="Overzicht van de gevulde tribunes tijdens de wedstrijd" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></div>
+ <div><img src="images/stanic.jpg" alt="Fanatieke Lierse supporters op de tribune tijdens de match" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></div>
+ <div><img src="images/cappi.jpg" alt="Lierse speler in actie aan de zijlijn" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></div>
+ <div><img src="images/supps.jpg" alt="Wedstrijdmoment tussen Lierse en de tegenstander" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></div>
+ <div><img src="images/sam.jpg" alt="Sfeerbeeld van de wedstrijd bij kunstlicht langs de zijlijn" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></div>
+ <div><img src="images/jemi-lounge.jpg" alt="Intens duel om de bal tijdens de wedstrijd van Lierse" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></div>
+ <div><img src="images/pieter.jpg" alt="Ontlading en pure emotie bij een Lierse speler na een doelpunt" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></div>
+ </div>
+ </section>
+ 
+ <!-- DIENSTEN -->
+ <section id="diensten">
+ <h2 style="font-size: 2rem; margin-bottom: 30px; text-align: center;">DIENSTEN</h2>
+ <div class="grid">
+ <div class="card">
+ <h3>WEDSTRIJD</h3>
+ <p style="font-size: 1.5rem; font-weight: bold; color: #e6b800; margin: 10px 0;">€125</p>
+ <p>Ik fotografeer je match van begin tot einde: actie, duels, doelpunten en juichmomenten. Voor clubs, teams en supporters.</p>
+ <a href="#boeken" class="btn">Boek een wedstrijd</a>
+ </div>
+ <div class="card">
+ <h3>EVENT</h3>
+ <p style="font-size: 1.5rem; font-weight: bold; color: #e6b800; margin: 10px 0;">€175</p>
+ <p>Toernooi, clubfeest, sportdag of ander evenement: sfeer, publiek, deelnemers en details die het verhaal vertellen.</p>
+ <a href="#boeken" class="btn">Boek een event</a>
+ </div>
+ <div class="card">
+ <h3>INDIVIDUELE SPELER</h3>
+ <p style="font-size: 1.5rem; font-weight: bold; color: #e6b800; margin: 10px 0;">€75</p>
+ <p>Een shoot rond één speler: actiefoto's tijdens een match of een aparte sessie. Handig voor je profiel, social media of portfolio.</p>
+ <a href="#boeken" class="btn">Boek een shoot</a>
+ </div>
+ </div>
+ <p style="margin-top: 30px; text-align: center; color: #666;">Vaste prijzen. Andere wensen? Stuur me een bericht, dan bekijken we wat mogelijk is.</p>
+ </section>
+ 
+ <!-- OVER MIJ -->
+ <section id="over-mij" style="background: #f9f9f9; border-top: 1px solid #eee; border-bottom: 1px solid #eee;">
+ <h2 style="font-size: 2rem; margin-bottom: 20px; text-align: center;">OVER MIJ</h2>
+ <div class="profile-container">
+ <p style="font-size: 1.1rem;">Ik ben 19 van leeftijd en fotografeer sport. Langs de lijn, achter het doel of tussen het publiek: ik zoek de foto die vertelt hoe de wedstrijd echt voelde.</p>
+ <p style="font-size: 1.1rem; margin-bottom: 10px;">Wil je foto's van je club, team of evenement? Stuur me een bericht, dan bekijken we samen wat past.</p>
+ <img class="profile-img" src="images/isaak.jpg" alt="Isaak - Ruelens Media Sportfotograaf">
+ </div>
+ </section>
+ 
+ <!-- BOEKEN -->
+ <section id="boeken" style="max-width: 600px;">
+ <h2 style="font-size: 2rem; margin-bottom: 10px; text-align: center;">BOEKEN</h2>
+ <p style="text-align: center; margin-bottom: 30px; color: #666;">Vul het formulier in en je e-mailprogramma opent met je aanvraag al ingevuld. Verstuur het, dan antwoord ik zo snel mogelijk.</p>
+ 
+ <form action="mailto:ruelensisaak@gmail.com" method="post" enctype="text/plain">
+ <div class="form-group">
+ <label>Wat wilt u laten fotograferen?</label>
+ <label style="font-weight: normal; margin-bottom: 5px;"><input type="checkbox" name="Type" value="Wedstrijd" style="width: auto; margin-right: 10px;"> Wedstrijd (€125)</label>
+ <label style="font-weight: normal; margin-bottom: 5px;"><input type="checkbox" name="Type" value="Event" style="width: auto; margin-right: 10px;"> Event (€175)</label>
+ <label style="font-weight: normal; margin-bottom: 10px;"><input type="checkbox" name="Type" value="Individuele Speler" style="width: auto; margin-right: 10px;"> Individuele speler (€75)</label>
+ </div>
+ <div class="form-group">
+ <label for="naam">Naam</label>
+ <input type="text" name="Naam" id="naam" required>
+ </div>
+ <div class="form-group">
+ <label for="email">E-mailadres</label>
+ <input type="email" name="Email" id="email" required>
+ </div>
+ <div class="form-group">
+ <label for="datum">Datum</label>
+ <input type="date" name="Datum" id="datum" required>
+ </div>
+ <div class="form-group">
+ <label for="sport">Sport en club of event</label>
+ <input type="text" name="Sport_Club" id="sport" required>
+ </div>
+ <div class="form-group">
+ <label for="locatie">Locatie</label>
+ <input type="text" name="Locatie" id="locatie" required>
+ </div>
+ <div class="form-group">
+ <label for="bericht">Bericht</label>
+ <textarea name="Bericht" id="bericht" rows="5" required></textarea>
+ </div>
+ <button type="submit" class="submit-btn">Verstuur aanvraag</button>
+ </form>
+ 
+ <div style="margin-top: 40px; text-align: center; color: #666; font-size: 0.95rem;">
+ <p>Liever rechtstreeks? Mail naar ruelensisaak@gmail.com of stuur een DM via @ruelens_media.</p>
+ <p style="margin-top: 20px; font-size: 0.85rem;">© Ruelens Media. Alle foto's zijn auteursrechtelijk beschermd.</p>
+ </div>
+ </section>
+</body>
+</html>
